@@ -21,6 +21,10 @@ section {
     padding: 50px 0;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 /* Utilities */
 
 .container {
@@ -49,7 +53,10 @@ section {
 /* Header */
 
 header {
-    background-color: aquamarine;
+    background-image: url(../img/jumbo.png);
+    height: 600px;
+    background-size: cover;
+
 }
 
 #navbar {
@@ -58,7 +65,7 @@ header {
     margin: 0 auto;
     display: flex;
     align-items: center;
-    background-color: #cdec04;
+
 
 }
 
@@ -84,7 +91,64 @@ header {
 #sfondo .content-sfondo {
     height: 100%;
     width: 50%;
-    background-color: coral;
+
+}
+
+/* Header * Flex */
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+
+.azioni {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-sfondo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+/* Header * Button */
+
+.button {
+    background-color: #00aef7;
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    margin-left: 45px;
+    border: 1px solid gray;
+}
+
+.bg-button-first {
+    background-color: white;
+    color: black;
+}
+
+.bg-button-second {
+    background-color: black;
+    color: white;
+}
+
+/* header style */
+
+.content-sfondo h1 {
+    font-size: 50px;
+    color: white;
+
+}
+
+.content-sfondo p {
+    font-size: 30 px;
+    color: white;
+    text-align: center;
 }
 
 /* Main */
