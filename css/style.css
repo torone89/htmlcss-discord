@@ -159,18 +159,34 @@ header {
 .colonna-large {
     flex-basis: 60%;
     background-color: #2bec04;
-
+    align-items: center;
+    justify-content: center;
 }
 
 
 .colonna-small {
     background-color: #19cfd5;
     flex-basis: 40%;
+    align-items: center;
+    justify-content: center;
 }
 
 .colonna-full {
     background-color: green;
     flex-basis: 100%;
+
+}
+
+/* Main-  style */
+
+.colonna-small h2 {
+    font-size: 40px;
+    color: black;
+}
+
+.colonna-small p {
+    font-size: 20px;
+    color: black;
 }
 
 /* Footer */
