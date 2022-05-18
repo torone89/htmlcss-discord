@@ -27,6 +27,7 @@ body {
 
 /* Utilities */
 
+
 .margin {
     margin: 20px;
 }
@@ -52,6 +53,12 @@ body {
     background-color: lightgray;
 }
 
+.arrow {
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    margin: 1px;
+}
 
 /* Header */
 
@@ -147,10 +154,13 @@ header {
 .btn-size {
     border-radius: 25px;
     font-size: 20px;
-    padding: 25px;
+    padding: 23px;
 }
 
+.button.sfondo {
+    display: inline-block;
 
+}
 
 /* header style */
 
